@@ -41,7 +41,7 @@ public class MyClass {
  
  if(case_option==0){
  StringBuffer sb=new StringBuffer(name);
- //sb.insert(0,name);
+ 
  System.out.println(sb.reverse());
  }
  
@@ -61,8 +61,6 @@ else if(case_option==2){
  sb3.replace(sb3.indexOf(w),sb3.indexOf(w)+w.length(),reverseIncludingCase(w));
  }
  System.out.println(sb3.toString());
-
 }
-
 }
 }
