@@ -54,15 +54,15 @@ public class MyClass {
  System.out.println(sb2.toString());
  
  }
-else if(case option==2){
+else if(case_option==2){
   StringBuffer sb3=new StringBuffer(name);
  String[] words=name.split(" ");
  for(String w:words){
  sb3.replace(sb3.indexOf(w),sb3.indexOf(w)+w.length(),reverseIncludingCase(w));
  }
  System.out.println(sb3.toString());
- 
- }
- 
- }
-}//MyClass
+
+}
+
+}
+}
